@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33606.364
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorApp.Server", "MyBlazorApp\Server\MyBlazorApp.Server.csproj", "{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorApp.Client", "MyBlazorApp\Client\MyBlazorApp.Client.csproj", "{618A8A6F-3D68-45DB-B6EF-545C75A59996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorApp.Shared", "MyBlazorApp\Shared\MyBlazorApp.Shared.csproj", "{339271D0-C32A-4BB1-9ED5-833CB2079F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorApp.Services", "MyBlazorApp.Services\MyBlazorApp.Services.csproj", "{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorApp.Net", "MyBlazorApp.Net\MyBlazorApp.Net.csproj", "{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorApp.Mocks", "MyBlazorApp.Mocks\MyBlazorApp.Mocks.csproj", "{9B75520F-FB5B-44EE-9D26-42C82C506717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MockNetApi|Any CPU = MockNetApi|Any CPU
+		MockService|Any CPU = MockService|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.MockNetApi|Any CPU.ActiveCfg = MockNetApi|Any CPU
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.MockNetApi|Any CPU.Build.0 = MockNetApi|Any CPU
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.MockService|Any CPU.ActiveCfg = MockService|Any CPU
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.MockService|Any CPU.Build.0 = MockService|Any CPU
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854DA5BA-9C3F-40DE-8232-DA01AEE020D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.MockNetApi|Any CPU.ActiveCfg = MockNetApi|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.MockNetApi|Any CPU.Build.0 = MockNetApi|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.MockService|Any CPU.ActiveCfg = MockService|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.MockService|Any CPU.Build.0 = MockService|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618A8A6F-3D68-45DB-B6EF-545C75A59996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.MockNetApi|Any CPU.ActiveCfg = MockNetApi|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.MockNetApi|Any CPU.Build.0 = MockNetApi|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.MockService|Any CPU.ActiveCfg = MockService|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.MockService|Any CPU.Build.0 = MockService|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339271D0-C32A-4BB1-9ED5-833CB2079F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.MockNetApi|Any CPU.ActiveCfg = MockNetApi|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.MockNetApi|Any CPU.Build.0 = MockNetApi|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.MockService|Any CPU.ActiveCfg = MockService|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.MockService|Any CPU.Build.0 = MockService|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF5A5A4-7C7F-46A2-880C-843A58BE9D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.MockNetApi|Any CPU.ActiveCfg = MockNetApi|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.MockNetApi|Any CPU.Build.0 = MockNetApi|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.MockService|Any CPU.ActiveCfg = MockService|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.MockService|Any CPU.Build.0 = MockService|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEB8899-C692-43D5-AC34-DBB3A599FE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B75520F-FB5B-44EE-9D26-42C82C506717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B75520F-FB5B-44EE-9D26-42C82C506717}.MockNetApi|Any CPU.ActiveCfg = MockNetApi|Any CPU
+		{9B75520F-FB5B-44EE-9D26-42C82C506717}.MockNetApi|Any CPU.Build.0 = MockNetApi|Any CPU
+		{9B75520F-FB5B-44EE-9D26-42C82C506717}.MockService|Any CPU.ActiveCfg = MockService|Any CPU
+		{9B75520F-FB5B-44EE-9D26-42C82C506717}.MockService|Any CPU.Build.0 = MockService|Any CPU
+		{9B75520F-FB5B-44EE-9D26-42C82C506717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B81E9B7-BCDA-4F5A-8487-06C630803A0E}
+	EndGlobalSection
+EndGlobal
