@@ -9,11 +9,15 @@
 
   <ItemGroup>
     <Folder Include="NetApiMocks\" />
-    <Folder Include="ServicesMocks\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlazorApp.Services\MyBlazorApp.Services.csproj" />
+    <ProjectReference Include="..\MyBlazorApp\Shared\MyBlazorApp.Shared.csproj" />
   </ItemGroup>
 
 </Project>
