@@ -1,11 +1,13 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using MyBlazorApp.Net;
+using MyBlazorApp.Net.Api;
 
 public static class ServiceExtensions
 {
-    public static IServiceCollection AddNetApi(this IServiceCollection service)
+    public static IServiceCollection AddNetApi(this IServiceCollection services)
     {
-        //services.AddScoped<Interface, Implementation>();
+        services.AddScoped<IWeatherForecastApi, WeatherForecastApi>();
 
-        return service;
+        return services;
     }
 }
