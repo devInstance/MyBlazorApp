@@ -1,7 +1,7 @@
 ﻿@page "/fetchdata"
 @using MyBlazorApp.Services.Api;
-@using MyBlazorApp.Shared
-@inject IWeatherForecast Service
+@using MyBlazorApp.Services.Model;
+@inject IWeatherForecastService Service
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -39,7 +39,7 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private WeatherForecastItem[]? forecasts;
 
     protected override async Task OnInitializedAsync()
     {

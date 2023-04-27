@@ -1,21 +1,22 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using MyBlazorApp.Mocks.NetApiMocks;
 using MyBlazorApp.Mocks.ServicesMocks;
+using MyBlazorApp.Net.Api;
 using MyBlazorApp.Services.Api;
 
 public static class ServiceExtensions
 {
     public static IServiceCollection AddMockAppServices(this IServiceCollection services)
     {
-        services.AddScoped<IWeatherForecast, WeatherForecastMock>();
+        services.AddScoped<IWeatherForecastService, WeatherForecastServiceMock>();
 
         return services;
     }
 
-    public static IServiceCollection AddMockNetApi(this IServiceCollection service)
+    public static IServiceCollection AddMockNetApi(this IServiceCollection services)
     {
-        //services.AddScoped<Interface, Implementation>();
+        services.AddScoped<IWeatherForecastApi, WeatherForecastApiMock>();
 
-        return service;
+        return services;
     }
-
 }
