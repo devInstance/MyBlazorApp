@@ -14,15 +14,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MyBlazorApp.Net\MyBlazorApp.Net.csproj" />
-    <ProjectReference Include="..\..\MyBlazorApp.Services\MyBlazorApp.Services.csproj" />
-    <ProjectReference Include="..\Shared\MyBlazorApp.Shared.csproj" />
+    <ProjectReference Include="..\Net\MyBlazorApp.Net.csproj" />
+    <ProjectReference Include="..\Services\MyBlazorApp.Services.csproj" />
+    <ProjectReference Include="..\..\Shared\MyBlazorApp.Shared.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(Configuration)'=='MockNetApi'">
-	<ProjectReference Include="..\..\MyBlazorApp.Mocks\MyBlazorApp.Mocks.csproj" />
+	<ProjectReference Include="..\Mocks\MyBlazorApp.Mocks.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(Configuration)'=='MockService'">
-	<ProjectReference Include="..\..\MyBlazorApp.Mocks\MyBlazorApp.Mocks.csproj" />
+	<ProjectReference Include="..\Mocks\MyBlazorApp.Mocks.csproj" />
   </ItemGroup>
 
   <ItemGroup>
